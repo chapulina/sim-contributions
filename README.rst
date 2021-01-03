@@ -1,3 +1,5 @@
+![sim_contributions](sim_contributions.gif)
+
 Simulation instructions
 ======================
 
