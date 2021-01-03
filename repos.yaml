@@ -1,24 +1,6 @@
-ignition-release/ariac-release:
-  master: []
-ignition-release/ariac2-release:
-  master: []
-ignition-release/ariac3-release:
-  master: []
-ignition-release/bullet-2.82-debian-release:
-  master: []
 ignition-release/cloudsim-client-tools-release:
   master: []
 ignition-release/cloudsim-release:
-  master: []
-ignition-release/drcsim-release:
-  master: []
-ignition-release/drcsim-release-prerelease-dbg-packages:
-  master: []
-ignition-release/drcsim5-release:
-  master: []
-ignition-release/drcsim7-release:
-  master: []
-ignition-release/ftcsim-release:
   master: []
 ignition-release/gazebo-current-release:
   master: []
@@ -43,14 +25,6 @@ ignition-release/gazebo7-ros-release:
 ignition-release/gazebo8-release:
   master: []
 ignition-release/gazebo9-release:
-  master: []
-ignition-release/handsim-release:
-  master: []
-ignition-release/haptix-comm-release:
-  master: []
-ignition-release/haptix-luke-proprietary-release:
-  master: []
-ignition-release/haptix-tools-release:
   master: []
 ignition-release/ign-acropolis-release:
   master: []
@@ -210,12 +184,6 @@ ignition-release/ign-transport9-release:
   master: []
 ignition-release/ign-transport10-release:
   main: []
-ignition-release/mentor2-release:
-  master: []
-ignition-release/osrf-common-release:
-  master: []
-ignition-release/robocup3ds-release:
-  master: []
 ignition-release/ros1_ign_bridge-release:
   master: []
 ignition-release/sdformat-release:
@@ -231,10 +199,6 @@ ignition-release/sdformat5-release:
 ignition-release/sdformat6-release:
   master: []
 ignition-release/sdformat8-release:
-  master: []
-ignition-release/srcsim-release:
-  master: []
-ignition-release/subt-release:
   master: []
 ignition-tooling/gazebodistro:
   master: []
@@ -308,10 +272,6 @@ ignitionrobotics/ign-rviz:
 ignitionrobotics/ros_ign:
   melodic: []
   ros2: []
-osrf/car_demo:
-  master: []
-osrf/citysim:
-  master: []
 osrf/cloudsim:
   master: []
 osrf/cloudsim_user_guide:
@@ -344,16 +304,6 @@ osrf/cloudsimk:
   master: []
 osrf/collision_map_creator_plugin:
   master: []
-osrf/drcsim:
-  master: []
-osrf/frc_blue_team:
-  master: []
-osrf/frc_red_team:
-  master: []
-osrf/frc2016_competition:
-  master: []
-osrf/ftcsim:
-  master: []
 osrf/gazebo:
   gazebo11: []
 osrf/gazebo_demos:
@@ -380,61 +330,17 @@ osrf/gzue4bridge:
   master: []
 osrf/gzweb:
   master: []
-osrf/handsim:
-  master: []
-osrf/haptix_api:
-  master: []
-osrf/haptix-comm:
-  master: []
-osrf/haptix-tools:
-  master: []
 osrf/homebrew-simulation:
-  master: []
-osrf/huro-cup-spring-school-2015:
-  master: []
-osrf/manifold:
-  master: []
-osrf/mentor2:
   master: []
 osrf/mesh_to_sdf:
   master: []
-osrf/osrf-common:
-  master: []
 osrf/propshop-girder:
-  master: []
-osrf/robocup3ds:
   master: []
 osrf/sdf_tutorials:
   master: []
 osrf/sdformat:
   master: []
-osrf/servicesim:
-  master: []
-osrf/srcsim:
-  master: []
-osrf/srcsim_docker:
-  master: []
-osrf/srsim:
-  master: []
-osrf/subt:
-  master: []
-osrf/subt_seed:
-  master: []
-osrf/swarm:
-  master: []
 osrf/thepropshop:
-  master: []
-osrf/vmrc:
-  master: []
-osrf/vmrc-docker:
-  master: []
-osrf/vrc_arenas:
-  master: []
-osrf/vrx:
-  master: []
-osrf/vrx-docker:
-  master: []
-osrf/vrx-events:
   master: []
 ros-simulation/gazebo_ros_pkgs:
   noetic-devel: []
