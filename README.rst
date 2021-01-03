@@ -1,4 +1,4 @@
-![sim_contributions](sim_contributions.gif)
+.. image:: sim-contributions.gif
 
 Simulation instructions
 ======================
