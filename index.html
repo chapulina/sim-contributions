@@ -6,45 +6,47 @@ body {
   margin: 0;
 }
 .background {
-  background-image: url('ros.png');
+  background-image: url('gazebo.svg');
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
   position: absolute;
   z-index: -1;
 }
-.title, .time, .repos, .commits, .authors, .github {
-  font-family: sans-serif;
-  font-weight: bold;
+.footer {
+  width: 100%;
   position: absolute;
+  bottom: 0.1em;
 }
-.title, .time {
-  font-size: 3em;
-  text-align: center;
+.stats {
+  width: 30%;
+  padding: 1em;
+  float: left;
+}
+.title, .time, .repos, .commits, .authors {
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  color: #333333;
 }
 .title {
-  top: 0.5em;
+  top: 0.1em;
+  left: 0.1em;
+  font-size: 2em;
+  text-align: left;
+  position: absolute;
 }
 .time {
-  bottom: 0.5em;
+  width: 60%;
+  font-size: 3em;
+  text-align: right;
+  position: absolute;
+  right: 0.1em;
+  bottom: 0.1em;
 }
 .repos, .commits, .authors {
-  font-size: 2em;
-  padding-left: 1em;
-}
-.repos {
-  bottom: 0.9em;
-}
-.commits {
-  bottom: 2.4em;
-}
-.authors {
-  bottom: 3.9em;
-}
-.github {
-  bottom: 2em;
-  padding-right: 1em;
-  text-align: right;
+  font-size: 2vw;
+  position: relative;
+  width: 100%;
 }
 .org text, .repo text, .commit text, .author text {
   font-family: sans-serif;
@@ -65,9 +67,19 @@ body {
   position: absolute;
   left: center;
   top: center;
+  z-index: 50;
 }
 .repo:hover text, .commit:hover text, .author:hover text {
   display: inline;
+  z-index: 100;
+}
+.forkme{
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  margin-top: 2em;
+}
+.forkme > a{
+  text-decoration: none;
 }
 
 </style>
@@ -80,8 +92,8 @@ var startWait = 3.0;
 var padding = 1.5;  // minimum distance between repository circles
 var maxRadius = 20;  // maximum radius for repository circles
 var walltimeFactor = 120;
-var rosLogoMinSize = 3;
-var rosLogoMaxSize = 6;
+var logoMinSize = 3;
+var logoMaxSize = 6;
 var maxBatch = 20;
 
 var paused = false;
@@ -96,16 +108,16 @@ console.log(width + ' x ' + height);
 
 var fill = d3.scale.category10();
 
-// ROS logo
+// Gazebo logo
 d3.select("body").append("div")
   .attr("class", "background")
   .style("width", width + "px")
   .style("height", height + "px")
-  .style("background-size", rosLogoMinSize + "em");
+  .style("background-size", logoMinSize + "em");
 
 var svg = d3.select("body").append("svg")
-  .attr("width", width)
-  .attr("height", height)
+  .attr("width", "100%")
+  .attr("height", "100vh")
   // pause / resume simulation
   .on('click', function(d,i){
     paused = !paused;
@@ -119,29 +131,25 @@ var svg = d3.select("body").append("svg")
 // title
 d3.select("body").append("div")
   .attr("class", "title")
-  .style("width", width + "px")
-  .text("ROS Contributions");
-// current timestamp
-var current_time = d3.select("body").append("div")
-  .attr("class", "time")
-  .style("width", width + "px");
-// repository count
-var repository_count = d3.select("body").append("div")
-  .attr("class", "repos")
-  .style("width", width + "px");
-// commit count
-var commit_count = d3.select("body").append("div")
-  .attr("class", "commits")
-  .style("width", width + "px");
+  .text("Gazebo contributions");
+// footer
+var footer = d3.select("body").append("div")
+  .attr("class", "footer");
+// stats
+var stats = footer.append("div")
+  .attr("class", "stats");
 // author count
-var author_count = d3.select("body").append("div")
-  .attr("class", "authors")
-  .style("width", width + "px");
-// link to GitHub repository
-d3.select("body").append("div")
-  .attr("class", "github")
-  .style("width", width + "px")
-  .text("https://github.com/dirk-thomas/rosworld2020_ros-contributions");
+var author_count = stats.append("div")
+  .attr("class", "authors");
+// repository count
+var repository_count = stats.append("div")
+  .attr("class", "repos");
+// commit count
+var commit_count = stats.append("div")
+  .attr("class", "commits");
+// current timestamp
+var current_time = footer.append("div")
+  .attr("class", "time");
 
 var force = d3.layout.force()
   .nodes(repositories)
@@ -251,7 +259,7 @@ d3.json("data.json", function(error, data) {
   if (error) throw error;
   events = data.events;
 
-  // pulsate ROS logo
+  // pulsate logo
   setTimeout(function() {
     var bg_selection = d3.selectAll(".background");
     (function repeat() {
@@ -260,7 +268,7 @@ d3.json("data.json", function(error, data) {
         .styleTween("background-size", function() {
           return function(t) {
             t = 1 - Math.sqrt(1 - t * t);  // circleIn
-            return ((rosLogoMaxSize - rosLogoMinSize) * t + rosLogoMinSize) + "em";
+            return ((logoMaxSize - logoMinSize) * t + logoMinSize) + "em";
           };
         })
         .transition()
@@ -268,7 +276,7 @@ d3.json("data.json", function(error, data) {
         .styleTween("background-size", function() {
           return function(t) {
             t = Math.sqrt(1 - --t * t);  // circleOut
-            return ((rosLogoMinSize - rosLogoMaxSize) * t + rosLogoMaxSize) + "em";
+            return ((logoMinSize - logoMaxSize) * t + logoMaxSize) + "em";
           };
         })
         .each("end", repeat);
@@ -394,7 +402,7 @@ function addRepository(name, angle) {
     y: height / 2 - (Math.cos(angle) * height / 25.0) + (Math.random() - 0.5) * height / 20.0
   };
   repositories.push(repo);
-  repository_count.text(repositories.length.toLocaleString() + " GitHub repositories");
+  repository_count.text(repositories.length.toLocaleString() + " repositories");
   force.start();
 
   repo_selection = repo_selection.data(repositories);
@@ -575,3 +583,7 @@ function collide(alpha) {
 }
 
 </script>
+<p class="forkme">
+  <a target="_blenk" href="https://github.com/chapulina/sim-contributions">🍴 Fork me!</a>
+</p>
+</body>

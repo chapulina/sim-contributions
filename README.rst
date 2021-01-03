@@ -1,3 +1,14 @@
+Simulation instructions
+======================
+
+1. Edit ``github.yaml`` providing an OAuth token to use the GraphQL API.
+1. Run the ``get-commits.py`` script to fetch commit information from each repository.
+   This step will take quite a while but the information is stored locally and the script works incrementally if aborted and reinvoked.
+1. Run the ``create-data.py`` script generate the data in ``json`` in the format needed by the web application.
+1. Start a local webserver to host the files: ``python3 -m http.server``
+1. Open ``http://0.0.0.0:8000/index.html`` in a web browser.
+
+
 Visualize ROS contributions over time
 =====================================
 

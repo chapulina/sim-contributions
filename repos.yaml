@@ -1,0 +1,447 @@
+ignition-release/ariac-release:
+  master: []
+ignition-release/ariac2-release:
+  master: []
+ignition-release/ariac3-release:
+  master: []
+ignition-release/bullet-2.82-debian-release:
+  master: []
+ignition-release/cloudsim-client-tools-release:
+  master: []
+ignition-release/cloudsim-release:
+  master: []
+ignition-release/drcsim-release:
+  master: []
+ignition-release/drcsim-release-prerelease-dbg-packages:
+  master: []
+ignition-release/drcsim5-release:
+  master: []
+ignition-release/drcsim7-release:
+  master: []
+ignition-release/ftcsim-release:
+  master: []
+ignition-release/gazebo-current-release:
+  master: []
+ignition-release/gazebo-release:
+  master: []
+ignition-release/gazebo10-release:
+  master: []
+ignition-release/gazebo2-release:
+  master: []
+ignition-release/gazebo3-release:
+  master: []
+ignition-release/gazebo4-release:
+  master: []
+ignition-release/gazebo5-release:
+  master: []
+ignition-release/gazebo6-release:
+  master: []
+ignition-release/gazebo7-release:
+  master: []
+ignition-release/gazebo7-ros-release:
+  master: []
+ignition-release/gazebo8-release:
+  master: []
+ignition-release/gazebo9-release:
+  master: []
+ignition-release/handsim-release:
+  master: []
+ignition-release/haptix-comm-release:
+  master: []
+ignition-release/haptix-luke-proprietary-release:
+  master: []
+ignition-release/haptix-tools-release:
+  master: []
+ignition-release/ign-acropolis-release:
+  master: []
+ignition-release/ign-blueprint-release:
+  master: []
+ignition-release/ign-citadel-release:
+  master: []
+ignition-release/ign-dome-release:
+  master: []
+ignition-release/ign-edifice-release:
+  main: []
+ignition-release/ign-cmake-release:
+  master: []
+ignition-release/ign-cmake1-release:
+  master: []
+ignition-release/ign-cmake2-release:
+  master: []
+ignition-release/ign-common-release:
+  master: []
+ignition-release/ign-common2-release:
+  master: []
+ignition-release/ign-common3-release:
+  master: []
+ignition-release/ign-common4-release:
+  main: []
+ignition-release/ign-fuel-tools-release:
+  master: []
+ignition-release/ign-fuel-tools2-release:
+  master: []
+ignition-release/ign-fuel-tools3-release:
+  master: []
+ignition-release/ign-fuel-tools4-release:
+  master: []
+ignition-release/ign-fuel-tools5-release:
+  master: []
+ignition-release/ign-fuel-tools6-release:
+  main: []
+ignition-release/ign-gazebo-release:
+  master: []
+ignition-release/ign-gazebo2-release:
+  master: []
+ignition-release/ign-gazebo3-release:
+  master: []
+ignition-release/ign-gazebo4-release:
+  master: []
+ignition-release/ign-gazebo5-release:
+  main: []
+ignition-release/ign-gui-release:
+  master: []
+ignition-release/ign-gui0-release:
+  master: []
+ignition-release/ign-gui2-release:
+  master: []
+ignition-release/ign-gui3-release:
+  master: []
+ignition-release/ign-gui4-release:
+  master: []
+ignition-release/ign-gui5-release:
+  main: []
+ignition-release/ign-launch-release:
+  master: []
+ignition-release/ign-launch2-release:
+  master: []
+ignition-release/ign-launch3-release:
+  master: []
+ignition-release/ign-launch4-release:
+  main: []
+ignition-release/ign-math-release:
+  master: []
+ignition-release/ign-math3-release:
+  master: []
+ignition-release/ign-math4-release:
+  master: []
+ignition-release/ign-math5-release:
+  master: []
+ignition-release/ign-math6-release:
+  master: []
+ignition-release/ign-math7-release:
+  main: []
+ignition-release/ign-msgs-release:
+  master: []
+ignition-release/ign-msgs0-release:
+  master: []
+ignition-release/ign-msgs1-release:
+  master: []
+ignition-release/ign-msgs2-release:
+  master: []
+ignition-release/ign-msgs3-release:
+  master: []
+ignition-release/ign-msgs4-release:
+  master: []
+ignition-release/ign-msgs5-release:
+  master: []
+ignition-release/ign-msgs6-release:
+  master: []
+ignition-release/ign-msgs7-release:
+  main: []
+ignition-release/ign-physics-release:
+  master: []
+ignition-release/ign-physics2-release:
+  master: []
+ignition-release/ign-physics3-release:
+  master: []
+ignition-release/ign-physics4-release:
+  main: []
+ignition-release/ign-plugin-release:
+  master: []
+ignition-release/ign-plugin0-release:
+  master: []
+ignition-release/ign-plugins-release:
+  master: []
+ignition-release/ign-plugin2-release:
+  main: []
+ignition-release/ign-rendering-release:
+  master: []
+ignition-release/ign-rendering0-release:
+  master: []
+ignition-release/ign-rendering2-release:
+  master: []
+ignition-release/ign-rendering3-release:
+  master: []
+ignition-release/ign-rendering4-release:
+  master: []
+ignition-release/ign-rendering5-release:
+  main: []
+ignition-release/ign-rndf-release:
+  master: []
+ignition-release/ign-sensors-release:
+  master: []
+ignition-release/ign-sensors2-release:
+  master: []
+ignition-release/ign-sensors3-release:
+  master: []
+ignition-release/ign-sensors4-release:
+  master: []
+ignition-release/ign-sensors5-release:
+  main: []
+ignition-release/ign-tools-release:
+  master: []
+ignition-release/ign-transport-release:
+  master: []
+ignition-release/ign-transport2-release:
+  master: []
+ignition-release/ign-transport3-release:
+  master: []
+ignition-release/ign-transport4-release:
+  master: []
+ignition-release/ign-transport5-release:
+  master: []
+ignition-release/ign-transport6-release:
+  master: []
+ignition-release/ign-transport7-release:
+  master: []
+ignition-release/ign-transport8-release:
+  master: []
+ignition-release/ign-transport9-release:
+  master: []
+ignition-release/ign-transport10-release:
+  main: []
+ignition-release/mentor2-release:
+  master: []
+ignition-release/osrf-common-release:
+  master: []
+ignition-release/robocup3ds-release:
+  master: []
+ignition-release/ros1_ign_bridge-release:
+  master: []
+ignition-release/sdformat-release:
+  master: []
+ignition-release/sdformat2-release:
+  master: []
+ignition-release/sdformat3-release:
+  master: []
+ignition-release/sdformat4-release:
+  master: []
+ignition-release/sdformat5-release:
+  master: []
+ignition-release/sdformat6-release:
+  master: []
+ignition-release/sdformat8-release:
+  master: []
+ignition-release/srcsim-release:
+  master: []
+ignition-release/subt-release:
+  master: []
+ignition-tooling/gazebodistro:
+  master: []
+ignition-tooling/gzdev:
+  master: []
+ignition-tooling/release-tools:
+  master: []
+ignition-tooling/setup-ign-docker:
+  main: []
+ignition-tooling/action-ignition-ci:
+  master: []
+  focal: []
+ignition-tooling/action-ignition-ci-bazel:
+  focal: []
+ignition-tooling/pr-collection-labeler:
+  master: []
+ignition-tooling/periodic-labeler:
+  master: []
+ignitionrobotics/design:
+  master: []
+ignitionrobotics/docs:
+  master: []
+ignitionrobotics/ign-acropolis:
+  master: []
+ignitionrobotics/ign-blueprint:
+  master: []
+ignitionrobotics/ign-citadel:
+  main: []
+ignitionrobotics/ign-dome:
+  main: []
+ignitionrobotics/ign-edifice:
+  main: []
+ignitionrobotics/ign-cmake:
+  main: []
+ignitionrobotics/ign-common:
+  main: []
+ignitionrobotics/ign-fuel-tools:
+  main: []
+ignitionrobotics/ign-gazebo:
+  main: []
+ignitionrobotics/ign-go1:
+  master: []
+ignitionrobotics/ign-gui:
+  main: []
+ignitionrobotics/ign-launch:
+  main: []
+ignitionrobotics/ign-math:
+  main: []
+ignitionrobotics/ign-msgs:
+  main: []
+ignitionrobotics/ign-physics:
+  main: []
+ignitionrobotics/ign-plugin:
+  main: []
+ignitionrobotics/ign-rendering:
+  main: []
+ignitionrobotics/ign-rndf:
+  master: []
+ignitionrobotics/ign-sensors:
+  main: []
+ignitionrobotics/ign-tools:
+  main: []
+ignitionrobotics/ign-transport:
+  main: []
+ignitionrobotics/ign-utils:
+  main: []
+ignitionrobotics/ign-bazel:
+  master: []
+ignitionrobotics/ign-rviz:
+  master: []
+ignitionrobotics/ros_ign:
+  melodic: []
+  ros2: []
+osrf/car_demo:
+  master: []
+osrf/citysim:
+  master: []
+osrf/cloudsim:
+  master: []
+osrf/cloudsim_user_guide:
+  master: []
+osrf/cloudsim-auth:
+  master: []
+osrf/cloudsim-badges:
+  master: []
+osrf/cloudsim-client-tools:
+  master: []
+osrf/cloudsim-ed-actuation:
+  master: []
+osrf/cloudsim-ed-web:
+  master: []
+osrf/cloudsim-grant:
+  master: []
+osrf/cloudsim-integration:
+  master: []
+osrf/cloudsim-keys:
+  master: []
+osrf/cloudsim-legacy:
+  master: []
+osrf/cloudsim-portal:
+  master: []
+osrf/cloudsim-sim:
+  master: []
+osrf/cloudsim-widgets:
+  master: []
+osrf/cloudsimk:
+  master: []
+osrf/collision_map_creator_plugin:
+  master: []
+osrf/drcsim:
+  master: []
+osrf/frc_blue_team:
+  master: []
+osrf/frc_red_team:
+  master: []
+osrf/frc2016_competition:
+  master: []
+osrf/ftcsim:
+  master: []
+osrf/gazebo:
+  gazebo11: []
+osrf/gazebo_demos:
+  master: []
+osrf/gazebo_design:
+  master: []
+osrf/gazebo-doc-index:
+  master: []
+osrf/gazebo_experimental:
+  master: []
+osrf/gazebo_models:
+  master: []
+osrf/gazebo_tutorials:
+  master: []
+osrf/gazebo_user_guide:
+  master: []
+osrf/gazebo-test-coverage:
+  master: []
+osrf/gazebojs:
+  master: []
+osrf/gz_leaderboard:
+  master: []
+osrf/gzue4bridge:
+  master: []
+osrf/gzweb:
+  master: []
+osrf/handsim:
+  master: []
+osrf/haptix_api:
+  master: []
+osrf/haptix-comm:
+  master: []
+osrf/haptix-tools:
+  master: []
+osrf/homebrew-simulation:
+  master: []
+osrf/huro-cup-spring-school-2015:
+  master: []
+osrf/manifold:
+  master: []
+osrf/mentor2:
+  master: []
+osrf/mesh_to_sdf:
+  master: []
+osrf/osrf-common:
+  master: []
+osrf/propshop-girder:
+  master: []
+osrf/robocup3ds:
+  master: []
+osrf/sdf_tutorials:
+  master: []
+osrf/sdformat:
+  master: []
+osrf/servicesim:
+  master: []
+osrf/srcsim:
+  master: []
+osrf/srcsim_docker:
+  master: []
+osrf/srsim:
+  master: []
+osrf/subt:
+  master: []
+osrf/subt_seed:
+  master: []
+osrf/swarm:
+  master: []
+osrf/thepropshop:
+  master: []
+osrf/vmrc:
+  master: []
+osrf/vmrc-docker:
+  master: []
+osrf/vrc_arenas:
+  master: []
+osrf/vrx:
+  master: []
+osrf/vrx-docker:
+  master: []
+osrf/vrx-events:
+  master: []
+ros-simulation/gazebo_ros_pkgs:
+  noetic-devel: []
+  ros2: []
+ros-simulation/gazebo_ros_demos:
+  kinetic-devel: []
+ros-simulation/gazebo_ros2_control:
+  master: []
+ros-simulation/gazebo_radar_plugin:
+  master: []

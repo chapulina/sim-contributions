@@ -42,6 +42,7 @@ for name, d in index.distributions.items():
         versions = repos.setdefault(url, {})
         distros = versions.setdefault(sr.version, [])
         distros.append(name)
+        break
 
 os.makedirs('data', exist_ok=True)
 with open('data/repos.yaml', 'w') as h:
