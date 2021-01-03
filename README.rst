@@ -1,5 +1,7 @@
 .. image:: sim-contributions.gif
 
+Live interactive version: https://louise.world/sim-contributions/
+
 Simulation instructions
 ======================
 
