@@ -9,7 +9,7 @@ ignition-release/gazebo-release:
 ignition-release/gazebo10-release:
   master: []
 ignition-release/gazebo11-release:
-  master: []
+  main: []
 ignition-release/gazebo2-release:
   master: []
 ignition-release/gazebo3-release:
@@ -21,21 +21,21 @@ ignition-release/gazebo5-release:
 ignition-release/gazebo6-release:
   master: []
 ignition-release/gazebo7-release:
-  master: []
+  main: []
 ignition-release/gazebo7-ros-release:
-  master: []
+  main: []
 ignition-release/gazebo8-release:
   master: []
 ignition-release/gazebo9-release:
-  master: []
+  main: []
 ignition-release/ign-acropolis-release:
   master: []
 ignition-release/ign-blueprint-release:
   master: []
 ignition-release/ign-citadel-release:
-  master: []
+  main: []
 ignition-release/ign-dome-release:
-  master: []
+  main: []
 ignition-release/ign-edifice-release:
   main: []
 ignition-release/ign-fortress-release:
@@ -53,21 +53,21 @@ ignition-release/ign-common-release:
 ignition-release/ign-common2-release:
   master: []
 ignition-release/ign-common3-release:
-  master: []
+  main: []
 ignition-release/ign-common4-release:
   main: []
 ignition-release/ign-common5-release:
   main: []
 ignition-release/ign-fuel-tools-release:
-  master: []
+  main: []
 ignition-release/ign-fuel-tools2-release:
   master: []
 ignition-release/ign-fuel-tools3-release:
   master: []
 ignition-release/ign-fuel-tools4-release:
-  master: []
+  main: []
 ignition-release/ign-fuel-tools5-release:
-  master: []
+  main: []
 ignition-release/ign-fuel-tools6-release:
   main: []
 ignition-release/ign-fuel-tools7-release:
@@ -79,9 +79,9 @@ ignition-release/ign-gazebo-release:
 ignition-release/ign-gazebo2-release:
   master: []
 ignition-release/ign-gazebo3-release:
-  master: []
+  main: []
 ignition-release/ign-gazebo4-release:
-  master: []
+  main: []
 ignition-release/ign-gazebo5-release:
   main: []
 ignition-release/ign-gazebo6-release:
@@ -91,13 +91,13 @@ ignition-release/ign-gazebo7-release:
 ignition-release/ign-gui-release:
   master: []
 ignition-release/ign-gui0-release:
-  master: []
+  main: []
 ignition-release/ign-gui2-release:
   master: []
 ignition-release/ign-gui3-release:
-  master: []
+  main: []
 ignition-release/ign-gui4-release:
-  master: []
+  main: []
 ignition-release/ign-gui5-release:
   main: []
 ignition-release/ign-gui6-release:
@@ -107,9 +107,9 @@ ignition-release/ign-gui7-release:
 ignition-release/ign-launch-release:
   master: []
 ignition-release/ign-launch2-release:
-  master: []
+  main: []
 ignition-release/ign-launch3-release:
-  master: []
+  main: []
 ignition-release/ign-launch4-release:
   main: []
 ignition-release/ign-launch5-release:
@@ -121,11 +121,11 @@ ignition-release/ign-math-release:
 ignition-release/ign-math3-release:
   master: []
 ignition-release/ign-math4-release:
-  master: []
+  main: []
 ignition-release/ign-math5-release:
   master: []
 ignition-release/ign-math6-release:
-  master: []
+  main: []
 ignition-release/ign-math7-release:
   main: []
 ignition-release/ign-msgs-release:
@@ -133,7 +133,7 @@ ignition-release/ign-msgs-release:
 ignition-release/ign-msgs0-release:
   master: []
 ignition-release/ign-msgs1-release:
-  master: []
+  main: []
 ignition-release/ign-msgs2-release:
   master: []
 ignition-release/ign-msgs3-release:
@@ -141,9 +141,9 @@ ignition-release/ign-msgs3-release:
 ignition-release/ign-msgs4-release:
   master: []
 ignition-release/ign-msgs5-release:
-  master: []
+  main: []
 ignition-release/ign-msgs6-release:
-  master: []
+  main: []
 ignition-release/ign-msgs7-release:
   main: []
 ignition-release/ign-msgs8-release:
@@ -153,9 +153,9 @@ ignition-release/ign-msgs9-release:
 ignition-release/ign-physics-release:
   master: []
 ignition-release/ign-physics2-release:
-  master: []
+  main: []
 ignition-release/ign-physics3-release:
-  master: []
+  main: []
 ignition-release/ign-physics4-release:
   main: []
 ignition-release/ign-physics5-release:
@@ -163,7 +163,7 @@ ignition-release/ign-physics5-release:
 ignition-release/ign-physics6-release:
   main: []
 ignition-release/ign-plugin-release:
-  master: []
+  main: []
 ignition-release/ign-plugin0-release:
   master: []
 ignition-release/ign-plugins-release:
@@ -177,9 +177,9 @@ ignition-release/ign-rendering0-release:
 ignition-release/ign-rendering2-release:
   master: []
 ignition-release/ign-rendering3-release:
-  master: []
+  main: []
 ignition-release/ign-rendering4-release:
-  master: []
+  main: []
 ignition-release/ign-rendering5-release:
   main: []
 ignition-release/ign-rendering6-release:
@@ -187,15 +187,15 @@ ignition-release/ign-rendering6-release:
 ignition-release/ign-rendering7-release:
   main: []
 ignition-release/ign-rndf-release:
-  master: []
+  main: []
 ignition-release/ign-sensors-release:
   master: []
 ignition-release/ign-sensors2-release:
   master: []
 ignition-release/ign-sensors3-release:
-  master: []
+  main: []
 ignition-release/ign-sensors4-release:
-  master: []
+  main: []
 ignition-release/ign-sensors5-release:
   main: []
 ignition-release/ign-sensors6-release:
@@ -203,7 +203,7 @@ ignition-release/ign-sensors6-release:
 ignition-release/ign-sensors7-release:
   main: []
 ignition-release/ign-tools-release:
-  master: []
+  main: []
 ignition-release/ign-transport-release:
   master: []
 ignition-release/ign-transport2-release:
@@ -211,7 +211,7 @@ ignition-release/ign-transport2-release:
 ignition-release/ign-transport3-release:
   master: []
 ignition-release/ign-transport4-release:
-  master: []
+  main: []
 ignition-release/ign-transport5-release:
   master: []
 ignition-release/ign-transport6-release:
@@ -219,9 +219,9 @@ ignition-release/ign-transport6-release:
 ignition-release/ign-transport7-release:
   master: []
 ignition-release/ign-transport8-release:
-  master: []
+  main: []
 ignition-release/ign-transport9-release:
-  master: []
+  main: []
 ignition-release/ign-transport10-release:
   main: []
 ignition-release/ign-transport11-release:
@@ -233,31 +233,31 @@ ignition-release/ign-utils1-release:
 ignition-release/ign-utils2-release:
   main: []
 ignition-release/ros1_ign_bridge-release:
-  master: []
+  main: []
 ignition-release/sdformat-release:
   master: []
 ignition-release/sdformat10-release:
-  master: []
+  main: []
 ignition-release/sdformat11-release:
-  master: []
+  main: []
 ignition-release/sdformat12-release:
-  master: []
+  main: []
 ignition-release/sdformat13-release:
-  master: []
+  main: []
 ignition-release/sdformat2-release:
   master: []
 ignition-release/sdformat3-release:
   master: []
 ignition-release/sdformat4-release:
-  master: []
+  main: []
 ignition-release/sdformat5-release:
   master: []
 ignition-release/sdformat6-release:
-  master: []
+  main: []
 ignition-release/sdformat8-release:
-  master: []
+  main: []
 ignition-release/sdformat9-release:
-  master: []
+  main: []
 ignition-tooling/gazebodistro:
   master: []
 ignition-tooling/gzdev:
@@ -274,11 +274,11 @@ ignition-tooling/action-ignition-ci:
 ignition-tooling/action-ignition-ci-bazel:
   focal: []
 ignition-tooling/pr-collection-labeler:
-  master: []
+  main: []
 ignition-tooling/periodic-labeler:
   master: []
 ignitionrobotics/design:
-  master: []
+  main: []
 ignitionrobotics/docs:
   master: []
 ignitionrobotics/ign-acropolis:
@@ -320,7 +320,7 @@ ignitionrobotics/ign-plugin:
 ignitionrobotics/ign-rendering:
   main: []
 ignitionrobotics/ign-rndf:
-  master: []
+  main: []
 ignitionrobotics/ign-sensors:
   main: []
 ignitionrobotics/ign-tools:
@@ -403,7 +403,7 @@ osrf/propshop-girder:
 osrf/sdf_tutorials:
   master: []
 osrf/sdformat:
-  master: []
+  main: []
 osrf/thepropshop:
   master: []
 ros-simulation/gazebo_ros_pkgs:
