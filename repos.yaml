@@ -277,6 +277,8 @@ ignition-tooling/pr-collection-labeler:
   main: []
 ignition-tooling/periodic-labeler:
   master: []
+ignitionrobotics/.github:
+  main: []
 ignitionrobotics/design:
   main: []
 ignitionrobotics/docs:
@@ -333,9 +335,15 @@ ignitionrobotics/ign-bazel:
   master: []
 ignitionrobotics/ign-rviz:
   main: []
+ignitionrobotics/ign_ros2_control:
+  main: []
 ignitionrobotics/ros_ign:
   noetic: []
   ros2: []
+ignitionrobotics/sdformat:
+  main: []
+ignitionrobotics/sdf_tutorials:
+  master: []
 osrf/cloudsim:
   master: []
 osrf/cloudsim_user_guide:
@@ -400,10 +408,6 @@ osrf/mesh_to_sdf:
   master: []
 osrf/propshop-girder:
   master: []
-osrf/sdf_tutorials:
-  master: []
-osrf/sdformat:
-  main: []
 osrf/thepropshop:
   master: []
 ros-simulation/gazebo_ros_pkgs:
